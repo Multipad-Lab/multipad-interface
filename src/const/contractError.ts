@@ -1,0 +1,30 @@
+const contractErrors = [
+  "caller isn't admin.",
+  "invalid launchpad params.",
+  "vesting is enabled.",
+  "tge rate invalid.",
+  "launchpad isn't active.",
+  "you aren't whitelist.",
+  "invalid purchase amount.",
+  "launchpad isn't completed.",
+  "vesting isn't enable.",
+  "cannot vesting now.",
+  "vesting doned.",
+  "launchpad isn't completed.",
+  "you aren't staker.",
+  "you can only purchase once.",
+  "launchpad isn't completed.",
+  "invalid tier data.",
+  "Cannot call this function.",
+  "address invalid.",
+  "token transfer failed.",
+  "invalid signature.",
+  "Staking pool is not active",
+  "Stake amount must be greater than 0",
+  "Stake is not active",
+  "Minimum time to claim not reached",
+  "Minimum time to unstake not reached",
+  "insufficient allowance"
+]
+
+export default contractErrors
